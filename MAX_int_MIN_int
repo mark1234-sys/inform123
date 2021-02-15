@@ -1,0 +1,11 @@
+#include <iostream>
+
+int main() {
+int max_value = 0b01111111'11111111'11111111'11111111;
+int all_values = 0b11111111'11111111'11111111'11111111;
+int min_value = max_value - all_values;
+std::cout « "Max value of 'int' type: " « max_value « std::endl;
+std::cout « "Min value of 'int' type: " « min_value « std::endl;
+return 0;
+
+}
